@@ -41,6 +41,12 @@ This sample plugin demonstrates some of the basic functionality the plugin API c
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
 > `your-plugin-id` is a string like 'todotxt-kanban'
 
+### Or let it be built right into your plugin folder
+
+by changing the rollup.config.js
+```
+dir: '/mnt/c/projects/KBT_Test/.obsidian/plugins/todotxt-kanban'
+```
 
 ### API Documentation
 
