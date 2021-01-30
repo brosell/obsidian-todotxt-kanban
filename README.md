@@ -32,13 +32,15 @@ This sample plugin demonstrates some of the basic functionality the plugin API c
 
 ### How to use
 
-- Clone this repo.
+- Clone this repo. (or use it as a template for your own repo, then clone that)
 - `npm i` or `yarn` to install dependencies
 - `npm run dev` to start compilation in watch mode.
 
 ### Manually installing the plugin
 
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+> `your-plugin-id` is a string like 'todotxt-kanban'
+
 
 ### API Documentation
 
