@@ -2,6 +2,9 @@
 *.iml
 .idea
 
+# vscode
+.vscode
+
 # npm
 node_modules
 package-lock.json
@@ -9,3 +12,6 @@ package-lock.json
 # build
 main.js
 *.js.map
+
+# rollup config rarely needs to change, and it is handy to ignore because of the option output path doesn't get commited
+# rollup.config.js
